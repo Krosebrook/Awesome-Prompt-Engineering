@@ -151,7 +151,7 @@
 
   - [MusicLM: Generating Music From Text](https://arxiv.org/abs/2301.11325) [2023] (Arxiv) 
   - [ERNIE-Music: Text-to-Waveform Music Generation with Diffusion Models](https://arxiv.org/pdf/2302.04456) [2023] (Arxiv)
-  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023) (Arxiv)
+  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023] (Arxiv)
   - [AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/pdf/2209.03143) [2023] (Arxiv)
   - [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://arxiv.org/pdf/2301.12661.pdf) [2023] (Arxiv)
 
@@ -159,8 +159,6 @@
 
   - [Dreamix: Video Diffusion Models are General Video Editors](https://arxiv.org/pdf/2302.01329.pdf) [2023] (Arxiv) 
   - [Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation](https://arxiv.org/pdf/2212.11565.pdf) [2022] (Arxiv)
-  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023) (Arxiv)
-  - [AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/pdf/2209.03143) [2023] (Arxiv)
 
 ### Overviews
 
