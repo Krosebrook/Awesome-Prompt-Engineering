@@ -39,23 +39,38 @@ https://promptslab.github.io
 # Table of Contents
 
 - [Papers](#papers)
+  - [Prompt Engineering Techniques](#prompt-engineering-techniques)
+  - [Reasoning and In-Context Learning](#reasoning-and-in-context-learning)
+  - [Evaluating and Improving Language Models](#evaluating-and-improving-language-models)
+  - [Applications of Language Models](#applications-of-language-models)
+  - [Threat Detection and Adversarial Examples](#threat-detection-and-adversarial-examples)
+  - [Few-shot Learning and Performance Optimization](#few-shot-learning-and-performance-optimization)
+  - [Text to Image Generation](#text-to-image-generation)
+  - [Text to Music/Sound Generation](#text-to-musicsound-generation)
+  - [Text to Video Generation](#text-to-video-generation)
+  - [Overviews](#overviews)
 - [Tools & Code](#tools--code)
 - [Apis](#apis)
 - [Datasets](#datasets)
 - [Models](#models)
 - [AI Content Detectors](#ai-content-detectors)
-- [Educational](#educational)
-  - [Courses](#courses)
-  - [Tutorials](#tutorials)
+- [Courses](#courses)
+- [Tutorials](#tutorials)
+  - [Introduction to Prompt Engineering](#introduction-to-prompt-engineering)
+  - [Beginner's Guide to Generative Language Models](#beginners-guide-to-generative-language-models)
+  - [Best Practices for Prompt Engineering](#best-practices-for-prompt-engineering)
+  - [Complete Guide to Prompt Engineering](#complete-guide-to-prompt-engineering)
+  - [Technical Aspects of Prompt Engineering](#technical-aspects-of-prompt-engineering)
+  - [Resources for Prompt Engineering](#resources-for-prompt-engineering)
 - [Videos](#videos)
-- [Books](#books)
 - [Communities](#communities)
 - [How to Contribute](#how-to-contribute)
 
 
 ## Papers
 📄
-- **Prompt Engineering Techniques**:
+
+### Prompt Engineering Techniques
   - [The Prompt Report: A Systematic Survey of Prompting Techniques](https://trigaten.github.io/Prompt_Survey_Site/) [2024] (Arxiv)
   - [Text Mining for Prompt Engineering: Text-Augmented Open Knowledge Graph Completion via PLMs](https://aclanthology.org/2023.findings-acl.709.pdf) [2023] (ACL)
   - [A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT](https://arxiv.org/abs/2302.11382) [2023] (Arxiv)
@@ -95,17 +110,15 @@ https://promptslab.github.io
   - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) [2021] (Arxiv) 
   - [Generated Knowledge Prompting for Commonsense Reasoning](https://arxiv.org/abs/2110.08387) [2021] (Arxiv) 
   - [BERTese: Learning to Speak to BERT](https://aclanthology.org/2021.eacl-main.316) [2021] (Acl) 
-  
-  
-- **Evaluating and Improving Language Models**:
+
+### Evaluating and Improving Language Models
 
   - [Large Language Models Can Be Easily Distracted by Irrelevant Context](https://arxiv.org/abs/2302.00093) [2023] (Arxiv) 
   - [Crawling the Internal Knowledge-Base of Language Models](https://arxiv.org/abs/2301.12810) [2023] (Arxiv) 
   - [Discovering Language Model Behaviors with Model-Written Evaluations](https://arxiv.org/abs/2212.09251) [2022] (Arxiv) 
   - [Calibrate Before Use: Improving Few-Shot Performance of Language Models](https://arxiv.org/abs/2102.09690) [2021] (Arxiv) 
-  
-  
-- **Applications of Language Models**:
+
+### Applications of Language Models
 
   - [Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves](https://arxiv.org/abs/2311.04205) [2023] (Arxiv)
   - [Prompting for Multimodal Hateful Meme Classification](https://arxiv.org/abs/2302.04156) [2023] (Arxiv) 
@@ -116,9 +129,8 @@ https://promptslab.github.io
   - [Conversing with Copilot: Exploring Prompt Engineering for Solving CS1 Problems Using Natural Language](https://arxiv.org/abs/2210.15157) [2022] (Arxiv) 
   - [Plot Writing From Scratch Pre-Trained Language Models](https://aclanthology.org/2022.inlg-main.5) [2022] (Acl) 
   - [AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/abs/2010.15980) [2020] (Arxiv) 
-  
-  
-- **Threat Detection and Adversarial Examples**:
+
+### Threat Detection and Adversarial Examples
 
   - [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) [2022] (Arxiv) 
   - [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527) [2022] (Arxiv) 
@@ -126,40 +138,35 @@ https://promptslab.github.io
   - [Evaluating the Susceptibility of Pre-Trained Language Models via Handcrafted Adversarial Examples](https://arxiv.org/abs/2209.02128) [2022] (Arxiv) 
   - [Toxicity Detection with Generative Prompt-based Inference](https://arxiv.org/abs/2205.12390) [2022] (Arxiv) 
   - [How Can We Know What Language Models Know?](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00324/96460/How-Can-We-Know-What-Language-Models-Know) [2020] (Mit) 
-  
-  
-- **Few-shot Learning and Performance Optimization**:
+
+### Few-shot Learning and Performance Optimization
 
   - [Promptagator: Few-shot Dense Retrieval From 8 Examples](https://arxiv.org/abs/2209.11755) [2022] (Arxiv) 
   - [The Unreliability of Explanations in Few-shot Prompting for Textual Reasoning](https://arxiv.org/abs/2205.03401) [2022] (Arxiv) 
   - [Making Pre-trained Language Models Better Few-shot Learners](https://aclanthology.org/2021.acl-long.295) [2021] (Acl) 
   - [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) [2020] (Arxiv) 
-  
-  
-- **Text to Image Generation**:
+
+### Text to Image Generation
 
   - [A Taxonomy of Prompt Modifiers for Text-To-Image Generation](https://arxiv.org/abs/2204.13988) [2022] (Arxiv) 
   - [Design Guidelines for Prompt Engineering Text-to-Image Generative Models](https://arxiv.org/abs/2109.06977) [2021] (Arxiv)
   - [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) [2021] (Arxiv)
   - [DALL·E: Creating Images from Text](https://arxiv.org/abs/2102.12092) [2021] (Arxiv)
-  
-- **Text to Music/Sound Generation**:
+
+### Text to Music/Sound Generation
 
   - [MusicLM: Generating Music From Text](https://arxiv.org/abs/2301.11325) [2023] (Arxiv) 
   - [ERNIE-Music: Text-to-Waveform Music Generation with Diffusion Models](https://arxiv.org/pdf/2302.04456) [2023] (Arxiv)
-  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023) (Arxiv)
+  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023] (Arxiv)
   - [AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/pdf/2209.03143) [2023] (Arxiv)
   - [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://arxiv.org/pdf/2301.12661.pdf) [2023] (Arxiv)
-  
-- **Text to Video Generation**:
+
+### Text to Video Generation
 
   - [Dreamix: Video Diffusion Models are General Video Editors](https://arxiv.org/pdf/2302.01329.pdf) [2023] (Arxiv) 
   - [Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation](https://arxiv.org/pdf/2212.11565.pdf) [2022] (Arxiv)
-  - [Noise2Music: Text-conditioned Music Generation with Diffusion Models](https://arxiv.org/abs/2301.11325) [2023) (Arxiv)
-  - [AudioLM: a Language Modeling Approach to Audio Generation](https://arxiv.org/pdf/2209.03143) [2023] (Arxiv)
-  
-  
-- **Overviews**:
+
+### Overviews
 
   - [Piloting Copilot and Codex: Hot Temperature, Cold Prompts, or Black Magic?](https://arxiv.org/abs/2210.14699) [2022] (Arxiv) 
   
@@ -276,42 +283,42 @@ https://promptslab.github.io
 ## Tutorials
 📚
 
-  - **Introduction to Prompt Engineering**
+### Introduction to Prompt Engineering
 
     - [Prompt Engineering 101 - Introduction and resources](https://www.linkedin.com/pulse/prompt-engineering-101-introduction-resources-amatriain)
     - [Prompt Engineering 101](https://humanloop.com/blog/prompt-engineering-101)
     - [Prompt Engineering Guide by SudalaiRajkumar](https://github.com/SudalaiRajkumar/Talks_Webinars/blob/master/Slides/PromptEngineering_20230208.pdf)
     - [Vibe Engineering book by Tomasz Lelek & Artur Skowronski](https://www.manning.com/books/vibe-engineering)
 
-  - **Beginner's Guide to Generative Language Models**
+### Beginner's Guide to Generative Language Models
 
-    - [A beginner-friendly guide to generative language models - LaMBDA guide](https://aitestkitchen.withgoogle.com/how-lamda-works)
-    - [Generative AI with Cohere: Part 1 - Model Prompting](https://txt.cohere.ai/generative-ai-part-1)
+  - [A beginner-friendly guide to generative language models - LaMBDA guide](https://aitestkitchen.withgoogle.com/how-lamda-works)
+  - [Generative AI with Cohere: Part 1 - Model Prompting](https://txt.cohere.ai/generative-ai-part-1)
 
-  - **Best Practices for Prompt Engineering**
+### Best Practices for Prompt Engineering
 
-    - [Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
-    - [How to write good prompts](https://andymatuschak.org/prompts)
+  - [Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+  - [How to write good prompts](https://andymatuschak.org/prompts)
 
-  - **Complete Guide to Prompt Engineering**
+### Complete Guide to Prompt Engineering
 
-    - [A Complete Introduction to Prompt Engineering for Large Language Models](https://www.mihaileric.com/posts/a-complete-introduction-to-prompt-engineering)
-    - [Prompt Engineering Guide: How to Engineer the Perfect Prompts](https://richardbatt.co.uk/prompt-engineering-guide-how-to-engineer-the-perfect-prompts)
-    - [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
+  - [A Complete Introduction to Prompt Engineering for Large Language Models](https://www.mihaileric.com/posts/a-complete-introduction-to-prompt-engineering)
+  - [Prompt Engineering Guide: How to Engineer the Perfect Prompts](https://richardbatt.co.uk/prompt-engineering-guide-how-to-engineer-the-perfect-prompts)
+  - [Prompt Engineering Guide by Learn Prompting](https://learnprompting.org/docs/introduction)
 
-  - **Technical Aspects of Prompt Engineering**
+### Technical Aspects of Prompt Engineering
 
-    - [3 Principles for prompt engineering with GPT-3](https://www.linkedin.com/pulse/3-principles-prompt-engineering-gpt-3-ben-whately)
-    - [A Generic Framework for ChatGPT Prompt Engineering](https://medium.com/@thorbjoern.heise/a-generic-framework-for-chatgpt-prompt-engineering-7097f6513a0b)
-    - [Methods of prompt programming](https://generative.ink/posts/methods-of-prompt-programming)
+  - [3 Principles for prompt engineering with GPT-3](https://www.linkedin.com/pulse/3-principles-prompt-engineering-gpt-3-ben-whately)
+  - [A Generic Framework for ChatGPT Prompt Engineering](https://medium.com/@thorbjoern.heise/a-generic-framework-for-chatgpt-prompt-engineering-7097f6513a0b)
+  - [Methods of prompt programming](https://generative.ink/posts/methods-of-prompt-programming)
 
-  - **Resources for Prompt Engineering**
+### Resources for Prompt Engineering
 
-    - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
-    - [Best 100+ Stable Diffusion Prompts](https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts)
-    - [DALLE Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book)
-    - [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
-    - [Prompt Engineering by Microsoft](https://microsoft.github.io/prompt-engineering)
+  - [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
+  - [Best 100+ Stable Diffusion Prompts](https://mpost.io/best-100-stable-diffusion-prompts-the-most-beautiful-ai-text-to-image-prompts)
+  - [DALLE Prompt Book](https://dallery.gallery/the-dalle-2-prompt-book)
+  - [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
+  - [Prompt Engineering by Microsoft](https://microsoft.github.io/prompt-engineering)
 
 ## Videos
 🎥
